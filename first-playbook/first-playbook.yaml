@@ -17,4 +17,4 @@
 
 
 ansible-playbook -i inventory firstplaybook.yaml
-ansible-playbook -vvv firstplaybook.yaml
+ansible-playbook -vvv firstplaybook.yaml ----------for verbose 
