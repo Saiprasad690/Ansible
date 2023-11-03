@@ -12,3 +12,9 @@
       service:
         name: nginx
         state: started
+
+
+
+
+ansible-playbook -i inventory firstplaybook.yaml
+ansible-playbook -vvv firstplaybook.yaml
