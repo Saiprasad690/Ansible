@@ -1,7 +1,7 @@
 Create two instances and only in one ec2 update and install ansible
 ssh-keygen in 1st ec2 cd to the path of id_rsa.pub and
-copy the key into the 2nd ec2 and cd /home/ubuntu/.ssh and paste the copied keys of id_rsa.pub of 1st ec2 instance and paste it in the authorized_keys.
-# ssh (private ip of 2nd ec2) and you will login to the 2nd ec2 instance but from 1st ec2 terminal and look at the ip and exit
+copy the key into the 2nd ec2 and cd /home/ubuntu/.ssh and paste the copied keys of id_rsa.pub of 1st ec2 instance and paste it in the vim ~./ssh/authorized_keys.
+# ssh (private ip of 2nd ec2) and you will login to the 2nd ec2 instance but from 1st ec2 terminal and look at the ip and exit.
 
 # create an inventory file and give 2nd ec2 ip init
 
